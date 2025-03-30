@@ -1,5 +1,14 @@
 body {
     font-family: Arial, sans-sarif;
     text-align: center;
-    background-color:floralwhite;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 246, 239);
+}
+
+.border_control {
+    border-style:outset;
+    border-color: maroon;
+    border-radius: 5px;
+    border-width: 5px;
+    padding: 10px;
 }
