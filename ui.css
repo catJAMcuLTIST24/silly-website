@@ -1,14 +1,25 @@
 body {
+    background-image: url(Images/rapper-kendrick-lamar-01.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     font-family: Arial, sans-sarif;
     text-align: center;
-    background-color:rgb(0, 0, 0);
     color:rgb(255, 246, 239);
 }
 
-.border_control {
+/*body {
+    font-family: Arial, sans-sarif;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    
+}*/
+
+/*.border_control {
     border-style:outset;
     border-color: maroon;
     border-radius: 5px;
     border-width: 5px;
     padding: 10px;
-}
+}*/
