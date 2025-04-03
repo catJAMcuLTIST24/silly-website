@@ -1,13 +1,71 @@
 body {
-    background-image: url(Images/rapper-kendrick-lamar-01.webp);
+    background-color: black;
+    background-image: url(vid/space04.gif);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: 50%;
     background-position: center;
-    background-size: cover;
     font-family: Arial, sans-sarif;
     text-align: center;
     color:rgb(255, 246, 239);
 }
+
+pre {
+    font-size: 12px;
+    font-weight: 20;
+    
+    
+}
+
+
+.title-decor {
+    background: linear-gradient(
+        to right,
+        white,
+        black,
+        white
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 2.9s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+
+
+/*.title-decor {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: white;
+    -webkit-text-stroke: 0.4px rgb(255, 19, 19);
+    background: linear-gradient(to right, white,gray,black,gray,white);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+
+    @keyframes textShine {
+        0% {
+            background-position: 0% 50%;
+        }
+        100%  {
+            background-position: 100% 50%;
+        }
+    }
+
+}
+    
 
 /*body {
     font-family: Arial, sans-sarif;
